@@ -1,0 +1,82 @@
+
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    background: black;
+    overflow: auto;
+}
+
+/* HEADER */
+#header-nav {
+    background-color:tomato;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /*Business name */
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+    line-height: .35;
+    font-size: 1.3em;
+}
+
+.navbar-brand h1 span {
+    color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { /* Toggle Button */
+    background: black;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {/* Button content */
+    color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
+    color: black;
+    cursor: pointer;
+}
+
+.nav>li>a {
+    color: #951C49;
+    text-align: center;
+}
+/* End of Header */
+
+/* Content */
+#pageHeading {
+    color: #fff;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.row section {
+    margin: 2% 1% 2% 5%;
+    background: tomato;
+    color: #fff;
+    border-radius: 5px;
+}
+
+section p {
+    padding: 10px;
+    width: 98%;
+}
+
+section h2 {
+    margin: 0 0 10px;
+    text-align: center;
+}
+
